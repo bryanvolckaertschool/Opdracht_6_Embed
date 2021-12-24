@@ -1,0 +1,1 @@
+cmd_/home/pi/embedded/RPIKERNEL/main.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/embedded/RPIKERNEL/main.ko /home/pi/embedded/RPIKERNEL/main.o /home/pi/embedded/RPIKERNEL/main.mod.o;  true
